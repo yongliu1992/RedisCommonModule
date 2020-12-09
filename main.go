@@ -1,4 +1,4 @@
-package main 
+package RedisCommonModule 
 import (
 	"github.com/go-sql-driver/mysql"
 	"time"
