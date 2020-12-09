@@ -1,10 +1,9 @@
-package main
-
+package RedisCommonModule 
 import (
 	"github.com/go-sql-driver/mysql"
 	"time"
 )
-type ResourceAssessment struct {
+type ResourceAssessment2 struct {
 	ID               int            `gorm:"column:id;primary_key" json:"id" db:"id"`
 	Country          string         `gorm:"column:country" json:"country" db:"country"`
 	AccessDepartment string         `gorm:"column:access_department" json:"access_department" db:"access_department"`
